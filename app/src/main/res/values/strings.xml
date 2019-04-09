@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">esNotifier</string>
+    <string name="notification_title">Estofex:</string>
+    <string name="notification_text"> has been issued</string>
+    <string name="forecast_xml_url">http://www.estofex.org/cgi-bin/polygon/showforecast.cgi?xml=yes</string>
+    <string name="forecast_page_url">http://estofex.org</string>
+    <string name="notification_tag">cz.bambula.esnotifier</string>
+    <string name="notification_channel_name">esNotifier</string>
+    <string name="notification_channel_description">Estofex forecast notifications</string>
+    <string name="crash_toast_text">Error</string>
+    <string name="preference_file_key">cz.bambula.esnotifier</string>
+    <string name="forecast_issued">forecastIssued</string>
+    <string name="forecast_valid_from">validFrom</string>
+    <string name="forecast_valid_to">validTo</string>
+    <string name="forecast_risk_type">riskType</string>
+
+    <string name="pref_lastSuccessfulForecastDwnld_id">pref_lastSuccessfulForecastDwnld</string>
+    <string name="pref_lastSuccessfulForecastDwnld_text">Last update: </string>
+    <string name="pref_lastSuccessfulForecastDwnld_default">never</string>
+    <string name="pref_presetAreasScreen_id">pref_presetAreasScreen</string>
+    <string name="pref_presetAreasScreen_title">Country Level Settings</string>
+    <string name="pref_presetAreasScreen_summary">Single rule per Country</string>
+    <string name="pref_useNotificationSound_id">pref_useNotificationSound</string>
+    <string name="pref_useNotificationSound_title">Sound</string>
+    <string name="pref_useNotificationVibration_id">pref_useNotificationVibration</string>
+    <string name="pref_useNotificationVibration_title">Vibrate</string>
+</resources>

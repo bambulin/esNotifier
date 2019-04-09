@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="pref_warningLevel_entries">
+        <item>Off</item>
+        <item>@string/ERiskType.THUNDER_15.text</item>
+        <item>@string/ERiskType.THUNDER_50.text</item>
+        <item>@string/ERiskType.LEVEL_1.text</item>
+        <item>@string/ERiskType.LEVEL_2.text</item>
+        <item>@string/ERiskType.LEVEL_3.text</item>
+    </string-array>
+    <string-array
+        name="pref_warningLevel_values">
+        <item>@string/ERiskType.NO_RISK.name</item>
+        <item>@string/ERiskType.THUNDER_15.name</item>
+        <item>@string/ERiskType.THUNDER_50.name</item>
+        <item>@string/ERiskType.LEVEL_1.name</item>
+        <item>@string/ERiskType.LEVEL_2.name</item>
+        <item>@string/ERiskType.LEVEL_3.name</item>
+    </string-array>
+    <string name="pref_globalWarningLevel_id">pref_globalWarningLevel</string>
+    <string name="pref_globalWarningLevel_title">Global Level Setting</string>
+    <string name="pref_globalWarningLevel_default">@string/ERiskType.THUNDER_15.name</string>
+</resources>

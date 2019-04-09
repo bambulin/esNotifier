@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="@string/pref_updateInterval_id"
+        android:title="@string/pref_updateInterval_title"
+        android:summary="%s"
+        android:dialogTitle="@string/pref_updateInterval_title"
+        android:entries="@array/pref_updateInterval_entries"
+        android:entryValues="@array/pref_updateInterval_values"
+        android:defaultValue="@string/pref_updateInterval_default"
+        android:icon="@mipmap/ic_clock"/>
+    <SwitchPreference
+        android:key="@string/pref_useNotificationSound_id"
+        android:title="@string/pref_useNotificationSound_title"
+        android:icon="@mipmap/ic_speaker"
+        android:defaultValue="true"/>
+
+    <SwitchPreference
+        android:key="@string/pref_useNotificationVibration_id"
+        android:title="@string/pref_useNotificationVibration_title"
+        android:icon="@mipmap/ic_vibration"
+        android:defaultValue="true"/>
+    <ListPreference
+        android:key="@string/pref_globalWarningLevel_id"
+        android:title="@string/pref_globalWarningLevel_title"
+        android:summary="%s"
+        android:dialogTitle="@string/pref_globalWarningLevel_title"
+        android:entries="@array/pref_warningLevel_entries"
+        android:entryValues="@array/pref_warningLevel_values"
+        android:defaultValue="@string/pref_globalWarningLevel_default"
+        android:icon="@mipmap/ic_earth"/>
+    <PreferenceScreen
+        android:key="@string/pref_presetAreasScreen_id"
+        android:title="@string/pref_presetAreasScreen_title"
+        android:summary="@string/pref_presetAreasScreen_summary"
+        android:icon="@mipmap/ic_pointer"/>
+    <Preference
+        android:key="@string/pref_lastSuccessfulForecastDwnld_id"
+        android:title="@string/pref_lastSuccessfulForecastDwnld_text"/>
+</PreferenceScreen>

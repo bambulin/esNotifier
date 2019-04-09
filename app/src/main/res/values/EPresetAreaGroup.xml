@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="EPresetAreaGroup.NORTHERN_EUROPE.text">Northern Europe</string>
+    <string name="EPresetAreaGroup.CENTRAL_EUROPE.text">Central Europe</string>
+    <string name="EPresetAreaGroup.SOUTHERN_EUROPE.text">Southern Europe</string>
+    <string name="EPresetAreaGroup.WESTERN_EUROPE.text">Western Europe</string>
+    <string name="EPresetAreaGroup.EASTERN_EUROPE.text">Eastern Europe</string>
+    <string name="EPresetAreaGroup.NORTHERN_AFRICA.text">Northern Africa</string>
+    <string name="EPresetAreaGroup.SEAS.text">Seas</string>
+</resources>

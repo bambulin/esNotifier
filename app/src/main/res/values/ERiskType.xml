@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ERiskType.NO_RISK.name">NO_RISK</string>
+    <string name="ERiskType.THUNDER_15.name">THUNDER_15</string>
+    <string name="ERiskType.THUNDER_50.name">THUNDER_50</string>
+    <string name="ERiskType.LEVEL_1.name">LEVEL_1</string>
+    <string name="ERiskType.LEVEL_2.name">LEVEL_2</string>
+    <string name="ERiskType.LEVEL_3.name">LEVEL_3</string>
+    <string name="ERiskType.MESO_DISC.name">MESO_DISC</string>
+
+    <string name="ERiskType.NO_RISK.text">No Risk</string>
+    <string name="ERiskType.THUNDER_15.text">15% Prob. of T-Storms</string>
+    <string name="ERiskType.THUNDER_50.text">50% Prob. of T-Storms</string>
+    <string name="ERiskType.LEVEL_1.text">Level 1</string>
+    <string name="ERiskType.LEVEL_2.text">Level 2</string>
+    <string name="ERiskType.LEVEL_3.text">Level 3</string>
+    <string name="ERiskType.MESO_DISC.text">Mesoscale Discussion</string>
+</resources>
